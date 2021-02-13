@@ -15,7 +15,7 @@ import Orders from "./components/Orders";
 
 const promise = loadStripe(
   "pk_test_51IJQr5Asms3PohRpaoiRpWcVmmmlip4ehnrmWqFRcxM3SFTzTvU6VngNvWLPE8xDZCdf6XYMM5hrhLZV2hzu2bqD00qE0EeBQe"
-)
+);
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         })
       }
     })
-  },[])
+  },[]);
   // BEM
   return (
     <Router>
